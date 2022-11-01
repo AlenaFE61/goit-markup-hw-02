@@ -28,6 +28,7 @@
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: inherit;
+  text-decoration: none;
  }
  .logo > span{
   color:#2196F3;
@@ -40,12 +41,16 @@ a{
   font-family: inherit;
   color: inherit;
 }
+ul{
+  list-style: none;
+}
  .item-menu{
   color:var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  text-decoration: none;
  }
  .item-menu:hover,
  .item-menu:focus
@@ -57,6 +62,7 @@ a{
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  text-decoration: none;
  }
  .contacts:hover{
   color:#2196F3;
@@ -131,11 +137,13 @@ a{
   color:var(--primery-white-color);
   font-size: 14px;
   line-height: 1.7;
+  text-decoration: none;
 }
 .foter-contacts{
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.7;
+  text-decoration: none;
 }
 .foter-contacts:hover,
 .foter-contacts:focus{
@@ -165,6 +173,9 @@ a{
 }
 .cards_list > li{
 background-color:var(--primery-white-color);
+}
+a{
+  text-decoration: none;
 }
 .title-project{
   color: var(--title-text-color);
