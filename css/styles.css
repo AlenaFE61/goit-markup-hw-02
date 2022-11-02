@@ -29,17 +29,20 @@
   line-height: 1.2;
   letter-spacing: inherit;
   text-decoration: none;
+  outline: none;
  }
  .logo > span{
   color:#2196F3;
  }
  button{
+  border: 0;
   cursor: pointer;
  }
 button,
 a{
   font-family: inherit;
   color: inherit;
+  outline: none;
 }
 ul{
   list-style: none;
@@ -51,10 +54,15 @@ ul{
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
+  cursor: pointer;
  }
  .item-menu:hover,
  .item-menu:focus
  {
+  color:var(--accent-color);
+  outline:none;
+ }
+ .current{
   color:var(--accent-color);
  }
  .contacts{
@@ -63,9 +71,12 @@ ul{
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
+  cursor: pointer;
  }
- .contacts:hover{
+ .contacts:hover,
+ .contacts:focus{
   color:#2196F3;
+  outline:none;
  }
  .coll-back{
   background-color:#2F303A;
@@ -75,7 +86,7 @@ ul{
   color:var(--primery-white-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.4px;
+  line-height: 1.4;
   letter-spacing: 0.06em;
   text-transform: uppercase;
  
@@ -84,7 +95,7 @@ ul{
   color:var(--primery-white-color);
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.9px;
+  line-height: 1.9;
   letter-spacing: 0.06em;
   background: var(--accent-color);
 
@@ -93,20 +104,20 @@ ul{
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.1px;
+  line-height: 1.1;
   text-transform: uppercase;
 }
 
 .text{
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.7px;
+  line-height: 1.7;
 }
 .activity > .title,
 .teams > .title{
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2px;
+  line-height: 1.2;
   text-align: center;
 }
 .teams{
@@ -138,16 +149,21 @@ ul{
   font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
+  font-family: inherit;
+  font-style: normal;
+  outline: none;
 }
 .foter-contacts{
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
+  font-style: normal;
 }
 .foter-contacts:hover,
 .foter-contacts:focus{
   color:var(--accent-color);
+  outline: none;
 }
 
 
@@ -156,18 +172,16 @@ ul{
 .portfolio{
   background-color: #F5F5F5;
 }
-.filter-btn{
+.text-btn{
   color: var(--title-text-color);
   background-color: #F5F4FA;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-}
-.text-btn{
   text-align: center;
 }
-.filter-btn:hover,
-.filter-btn:focus{
+.text-btn:hover,
+.text-btn:focus{
   color: var(--primery-white-color);
   background-color: var(--accent-color);
 }
